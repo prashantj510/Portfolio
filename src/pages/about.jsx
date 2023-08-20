@@ -85,7 +85,7 @@ const about = () => {
                 <h2 className=" text-xl font-medium capitalize text-dark/75 ">Projects Completed</h2>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <span className=" inline-block text-7xl font-bold"><AnimatedNumbers value={1}/>+</span>
+                <span className=" inline-block text-7xl font-bold">0</span>
                 <h2 className=" text-xl font-medium capitalize text-dark/75 ">Years Of Experience</h2>
               </div>
             </div>
