@@ -27,12 +27,12 @@ const NavBar = () => {
       <nav>
         <CustomLink href="/" title="Home" className="mr-4" />
         <CustomLink href="/about" title="About" className="mx-4" />
-        <CustomLink href="/projects" title="Projects" className="ml-4" />
+        <CustomLink href="/Projects" title="Projects" className="ml-4" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
         <motion.a
-          href="/"
+          href="https://twitter.com/prashantj510"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -41,7 +41,7 @@ const NavBar = () => {
           <TwitterIcon />
         </motion.a>
         <motion.a
-          href="/"
+          href="https://www.linkedin.com/in/prashantj510/"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -50,7 +50,7 @@ const NavBar = () => {
           <LinkedInIcon />
         </motion.a>
         <motion.a
-          href="/"
+          href="https://github.com/prashantj510"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
