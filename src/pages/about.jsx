@@ -44,7 +44,7 @@ const about = () => {
           content="About Page For Prashant Portfolio Website"
         />
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
+      <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="Prashant Kumar Jha." className="mb-16" />
           <div className="grid w-full grid-cols-8 gap-16">
@@ -71,22 +71,24 @@ const about = () => {
                 pariatur velit?
               </p>
             </div>
-            <div className=" col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light">
-              <div className=" absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark"></div>
+            <div className=" col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light ">
+              <div className=" absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark dark:bg-light"></div>
               <Image
                 src={profilepic}
                 alt="Profile"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="w-full h-auto rounded-2xl p-2"
               />
             </div>
             <div className=" col-span-2 flex flex-col items-end justify-evenly ">
               <div className=" flex flex-col items-center justify-center">
                 <span className=" inline-block text-7xl font-bold"><AnimatedNumbers value={10}/> +</span>
-                <h2 className=" text-xl font-medium capitalize text-dark/75 ">Projects Completed</h2>
+                <h2 className=" text-xl font-medium capitalize text-dark/75 dark:text-light/75">Projects Completed</h2>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <span className=" inline-block text-7xl font-bold">0</span>
-                <h2 className=" text-xl font-medium capitalize text-dark/75 ">Years Of Experience</h2>
+                <h2 className=" text-xl font-medium capitalize text-dark/75 dark:text-light/75">Years Of Experience</h2>
               </div>
             </div>
           </div>
