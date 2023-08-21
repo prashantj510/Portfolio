@@ -118,7 +118,7 @@ const Projects = () => {
           content="Projects Page For Prashant Portfolio Website"
         />
       </Head>
-      <TransitionEffect/>
+      <TransitionEffect />
       <main className="w-full flex flex-col items-center justify-center mb-16 dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
@@ -128,12 +128,12 @@ const Projects = () => {
           <div className=" grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Weather App"
+                title="Portfolio App"
                 type="Featured Project"
-                link="https://prashantj510.github.io/weather-app/"
-                github="https://github.com/prashantj510/weather-app.git"
-                img={weatherapp}
-                summary="Using Open Weather API and Axios ,Modern and Responsive Design Compatible On Both Large and Mobile Screens"
+                link="https://prashantj510.github.io/Portfolio/"
+                github="https://github.com/prashantj510/Portfolio.git"
+                img={Portfolio}
+                summary="Made Using NextJs Tailwind Css Framer Motion ,Modern and Responsive Design Compatible On Both Large and Mobile Screens"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -158,12 +158,12 @@ const Projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Portfolio App"
+                title="Weather App"
                 type="Featured Project"
-                link="https://prashantj510.github.io/Portfolio/"
-                github="https://github.com/prashantj510/Portfolio.git"
-                img={Portfolio}
-                summary="Made Using NextJs Tailwind Css Framer Motion ,Modern and Responsive Design Compatible On Both Large and Mobile Screens"
+                link="https://prashantj510.github.io/weather-app/"
+                github="https://github.com/prashantj510/weather-app.git"
+                img={weatherapp}
+                summary="Using Open Weather API and Axios ,Modern and Responsive Design Compatible On Both Large and Mobile Screens"
               />
             </div>
           </div>

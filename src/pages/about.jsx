@@ -56,22 +56,13 @@ const about = () => {
                 About Me.
               </h2>
               <p className=" font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                voluptates a ad asperiores id aut sint repellendus quia sequi
-                odit deserunt placeat hic aspernatur ea et, perspiciatis dolore
-                pariatur velit?
+                Hey I am Prashant Kuamr Jha I am currently Pursuing MCA and I Have Completed My BCA from MDU Rohtak.
               </p>
               <p className="my-4 font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                voluptates a ad asperiores id aut sint repellendus quia sequi
-                odit deserunt placeat hic aspernatur ea et, perspiciatis dolore
-                pariatur velit?
+               I have A Good knowledge of Programming Fundamentals , React Js ,CSS , HTML , Tailwind CSS , Javascript, Python , Next Js ,Bootstrap.
               </p>
               <p className=" font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                voluptates a ad asperiores id aut sint repellendus quia sequi
-                odit deserunt placeat hic aspernatur ea et, perspiciatis dolore
-                pariatur velit?
+              I am a Quick Learner and Love to learn new Technology and Grow with the company .
               </p>
             </div>
             <div className=" col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8  ">
