@@ -30,7 +30,7 @@ export default function Home() {
                 src={profilePic}
                 alt="Code"
                 className="w-full h-auto"
-                // priority
+                priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>
@@ -68,7 +68,7 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className=" absolute right-8 bottom-8 inline-block w-24 ">
-          <Image src={lightBulb} alt=" Portfolio" className="w-full h-auto" />
+          <Image priority src={lightBulb} alt=" Portfolio" className="w-full h-auto" />
         </div>
       </main>
     </>
