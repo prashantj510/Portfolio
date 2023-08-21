@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import weatherapp from "../../public/images/projects/WeatherApp.png";
+import weatherapp from "../../public/images/projects/weatherApp.png";
 import Todoapp from "../../public/images/projects/Todo.png";
 import tinDogapp from "../../public/images/projects/tinDogApp.png";
 import Portfolio from "../../public/images/projects/Portfolio.png";
