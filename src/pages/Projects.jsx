@@ -68,8 +68,13 @@ const Project = ({ type, title, img, link, github }) => {
         target="_blank"
         className=" w-full cursor-pointer overflow-hidden rounded-lg "
       >
-        <Image src={img} alt={title} className="w-full h-auto" priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
+        <Image
+          src={img}
+          alt={title}
+          className="w-full h-auto"
+          // priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+        />
       </Link>
       <div className=" w-full flex flex-col items-start justify-between mt-4 ">
         <span className=" text-primary font-medium text-xl  dark:text-primaryDark">
