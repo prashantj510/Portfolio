@@ -1,3 +1,5 @@
+"use Client";
+
 import Link from "next/link";
 import React, { useState } from "react";
 import Logo from "./Logo";
@@ -72,7 +74,7 @@ const NavBar = () => {
         ></span>
         <span
           className={` bg-dark dark:bg-light  transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm my-0.5 ${
-            isOpen ? "opacity-0" : "opacity-100"
+            isOpen ? "hidden" : "flex"
           }`}
         ></span>
         <span
