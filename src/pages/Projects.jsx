@@ -9,6 +9,7 @@ import weatherapp from "../../public/images/projects/weatherApp.png";
 import Todoapp from "../../public/images/projects/Todo.png";
 import tinDogapp from "../../public/images/projects/tinDogApp.png";
 import Portfolio from "../../public/images/projects/Portfolio.png";
+import pizzaStore from "./../../public/images/projects/PizzaStore.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -126,6 +127,16 @@ const Projects = () => {
             className="mb-16 lg:!text-7xl sm:!text-6xl sm:mb-8 xs:!text-4xl"
           />
           <div className=" grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Pizza Store."
+                type="Featured Project."
+                github="https://github.com/prashantj510/Pizza-store.git"
+                img={pizzaStore}
+                link=""
+                summary="Made using React & Tailwind, This application has most of the functionality like user Login , SignUp , Cart Management , Payment .  "
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
                 title="Portfolio App"
